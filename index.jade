@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= pagetitle
+    meta(charset='utf-8')
+
+    script(type='text/javascript').
+      window.testurl= '!{testurl}'
+
+    script(type='text/javascript' src='localFrame.js')
+
+    style.
+      * { font-family: monospace; font-size: 12px; }
+      body, iframe { border: 0; margin: 0; padding: 0px; }
+      #iframe-div, iframe { border-right: 1px solid #888; width: 58vw; height: 100vh; float: left }
+  body

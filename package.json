@@ -1,0 +1,14 @@
+{
+	"name": "localFrame",
+	"version": "0.0.1",
+	"private": true,
+	"author":"Nenad Golubović <me@nenadg.com>",
+	"description":"Local node.js proxy that routes remote content directly to your iframe.",
+	"scripts": {
+		"start": "node app"
+	},
+	"dependencies": {
+		"request": "2.53.0",
+		"jade": "1.11.0"
+	}
+}
